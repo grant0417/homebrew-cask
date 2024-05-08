@@ -21,6 +21,7 @@ cask "amazon-q" do
   app "Amazon Q.app"
 
   zap trash: [
+    "~/Library/Application Support/amazon-q",
     "~/Library/Application Support/codewhisperer",
     "~/Library/Caches/com.amazon.codewhisperer",
     "~/Library/LaunchAgents/com.amazon.codewhisperer.launcher.plist",
